@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAS</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><span>AGRICULTURE ADVICE SYSTEM</span>(AAS)</a>
+
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Services">Services</a>
+        <a href="#Agents">Agri Experts</a>
+        <a href="#Contact">Contact</a>
+        <body style="background-color:lightblue;">
+    </nav>
+    </body>
+
+    <div class="icons">
+        <a href="#" class="fas fa-bars"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-user"></a>    
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <form action="">
+
+        <h3>Find a way to crop</h3>
+
+        <div class="inputBox">
+        <select name="" id="">
+                <option value="" disabled hidden selected>State</option>
+                <option value="Telangana">Telangana</option>
+                <option value="AndhraPradesh">AndhraPradesh</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                </select>
+                <select name="" id="">
+                <option value="" disabled hidden selected>City</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Vizag">Vizag</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Patna">Patna</option>
+                </select>
+               <select name="" id="">
+                <option value="" disabled hidden selected>Type of crop</option>
+                <option value="Rice">Rice</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Pulses">Pulses</option>
+                <option value="cotton">cotton</option>
+                <option value="corn">corn</option>
+                <option value="black pepper">black pepper</option>
+                <option value="clove">clove</option>
+                <option value="Soyabean">Soyabean</option>
+                <option value="Chilly">Chilly</option>
+                <option value="Potato">Potato</option>
+                <option value="Tomato">Tomato</option>
+                <option value="Carrot">Carrot</option>
+                <option value="Capsicum">Capsicum</option>
+                <option value="Apple">Apple</option>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Watermelon">Watermelon</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled hidden selected>Size of land</option>
+                <option value="less than 1 acre">less than 1 acre</option>
+                <option value="less than 5 acre">less than 5 acre</option>
+                <option value="less than 10 acre">less than 10 acre</option>
+                <option value="less than 15 acre">less than 15 acre</option>
+                <option value="less than 20 acre">less than 20 acre</option>
+                <option value="less than 30 acrer">less than 30 acre</option>
+                <option value="less than 40 acre">less than 40 acre</option>
+                <option value="more than 50 acre">less than 50 acre</option>
+            </select>
+             <select name="" id="">
+                <option value="" disabled hidden selected>Training(Experience)</option>
+                <option value="6 Months">6 Months</option>
+                <option value="1 Year">1 Year</option>
+                <option value="1 Year 6 Months">1 Year 6 Months</option>
+                <option value="2 Years">2 Years</option>
+                <option value="2 Year 6 Months">2 Year 6 Months</option>
+                <option value="3 Years">3 Years</option>
+                <option value="More than 3 Years">More than 3 Years</option>
+                </select>
+        </div>
+
+        <input type="submit" value="search information" class="btn">
+
+    </form>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> Our <span>Services</span> </h1>
+
+    <div class="box-container">
+         <div class="box">
+            <img src="images/pp1.png" alt="">
+            <h3>Advice on pests</h3>
+            <p>This can lead to the decision to take efforts to reduce pest occurrence, first by non-chemical methods of pest control.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/weat1.png" alt="">
+            <h3>Advice on weather</h3>
+            <p> We can get earlier information of weather conditions to start growing the crops and it helps to suggest which crop is suitable for which weather</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/pp2.jpg" alt="">
+            <h3>Advice on crops</h3>
+            <p>Crop development is influenced by a variety of factors, including soil texture, compaction, cation exchange capacity, and organic matter concentration</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- pests section starts -->
+
+<section class="pests" id="pests">
+<h1 class="heading"> Advice <span>On<span>Pests</span> </h1>
+
+  <form action="">
+        <h3>Preferred Pesticides</h3>
+
+<div class="inputBox">
+        <select name="" id="">
+                <option value="" disabled hidden selected>Type of crop</option>
+               <option value="Rice(Pests:Lambda-cyhalothrin,Malathion )">Rice(Pests:Lambda-cyhalothrin,Malathion)</option>
+                <option value="Wheat(Pests:Organochlorines,Organophosphates)">Wheat(Pests:Organochlorines,Organophosphates)</option>
+                <option value="Pulses(Pests:Urea,Nitrogen)">Pulses(Pests:Urea,Nitrogen)</option>
+                <option value="cotton(Pests:Aldicarb,Pyrethroids)">cotton(Pests:Aldicarb,Pyrethroids)</option>
+                <option value="corn(Pests:Glyphosate,Atrazine)">corn(Pests:Glyphosate,Atrazine)</option>
+                <option value="black pepper(Pests:Piper nigrum)">black pepper(Pests:Piper nigrum)</option>
+                <option value="clove(Pests:Eugenol)">clove(Pests:Eugenol)</option>
+                <option value="Soyabean(Pests:glyphosate potassium salt)">Soyabean(Pests:glyphosate potassium salt)</option>
+                <option value="Chilly(Pests:Coromandel chilli)">Chilly(Pests:Coromandel chilli)</option>
+                <option value="Potato(Pests:Abamectin,Lambda-cyhalothrin)">Potato(Pests:Abamectin,Lambda-cyhalothrin)</option>
+                <option value="Tomato(Pests:Abamectin,Bacillus Thuringiensis)">Tomato(Pests:Abamectin,Bacillus Thuringiensis)</option>
+                <option value="Carrot(Pests:Trifluralin,Pyraclostrobin)">Carrot(Pests:Trifluralin,Pyraclostrobin)</option>
+                <option value="Capsicum(Pests:Pongamia oil,Abamectin)">Capsicum(Pests:Pongamia oil,Abamectin)</option>
+                <option value="Apple(Pests:Chlorpyrifos,Diphenylamine)">Apple(Pests:Chlorpyrifos,Diphenylamine)</option>
+                <option value="Pineapple(Pests:Carbaryl,Piperonyl butoxide)">Pineapple(Pests:Carbaryl,Piperonyl butoxide)</option>
+                <option value="Watermelon(Pests:Confidor,Econeem plus)">Watermelon(Pests:Confidor,Econeem plus)</option>
+                </select>
+</div>
+</form>
+</section>
+<!-- pests section ends -->
+
+<!-- weather section starts -->
+<section class="weather" id="weather">
+<h1 class="heading"> Advice <span>On<span>Weather</span> </h1>
+  <form action="">
+        <h3>Preferred weather</h3>
+
+<div class="inputBox">
+        <select name="" id="">
+        <option value="" disabled hidden selected>Type of crop</option>
+               <option value="Rice(TEMP:20'C - 35'C (Warm,Humid areas))">Rice(TEMP:20'C - 35'C (Warm,Humid areas))</option>
+                <option value="Wheat(TEMP:21'C - 24'C (Sunshine needed when grains are filling))">Wheat(TEMP:21'C - 24'C (Sunshine needed when grains are filling))</option>
+                <option value="Pulses(TEMP:25'C - 30'C (Moisture,Dry areas))">Pulses(TEMP:25'C - 30'C (Moisture,Dry areas))</option>
+                <option value="cotton(TEMP:21'C - 30'C (Warm areas))">cotton(TEMP:21'C - 30'C (Warm areas))</option>
+                <option value="corn(TEMP:28'C - 30'C (Warm areas))">corn(TEMP:28'C - 30'C (Warm areas))</option>
+                <option value="black pepper(TEMP:23'C - 32'C (Hot,Humid areas))">black pepper(TEMP:23'C - 32'C (Hot,Humid areas))</option>
+                <option value="clove(TEMP:25'C - 28'C (Loamy soils,Humid areas))">clove(TEMP:25'C - 28'C (Loamy soils,Humid areas))</option>
+                <option value="Soyabean(TEMP:26'C - 30'C (Warm,Moist areas))">Soyabean(TEMP:26'C - 30'C (Warm,Moist areas))</option>
+                <option value="Chilly(TEMP:20'C - 25'C (Warm,Humid areas))">Chilly(TEMP:20'C - 25'C (Warm,Humid areas))</option>
+                <option value="Potato(TEMP:22'C - 24'C (Full sun areas))">Potato(TEMP:22'C - 24'C (Full sun areas))</option>
+                <option value="Tomato(TEMP:21'C - 24'C (Sandy,Loam soil,Rich pH areas))">Tomato(TEMP:21'C - 24'C (Sandy,Loam soil,Rich pH areas))</option>
+                <option value="Carrot(TEMP:16'C - 20'C(Full Sunlight areas))">Carrot(TEMP:16'C - 20'C(Full Sunlight areas))</option>
+                <option value="Capsicum(TEMP:20'C - 35'C (Encriched soil,sunlight areas))">Capsicum(TEMP:20'C - 35'C (Encriched soil,sunlight areas))</option>
+                <option value="Apple(TEMP:21'C - 24'C (Rich pH,Humid areas))">Apple(TEMP:21'C - 24'C (Rich pH,Humid areas))</option>
+                <option value="Pineapple(TEMP:15'C - 30'C (Warm,Humid,any soil areas))">Pineapple(TEMP:15'C - 30'C (Warm,Humid,any soil areas))</option>
+                <option value="Watermelon(TEMP:20'C - 25'C (Sandy loam soil,rich pH areas))">Watermelon(TEMP:20'C - 25'C (Sandy loam soil,rich pH areas))</option>
+                </select>
+</div>
+</form>
+</section>
+<!-- weather section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Featured</span> Lands </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/l1.jpg" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>for training</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs1,00,000/- Year</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>Cotton Crops</h3>
+                    <p>Amaravathi, Guntur, India - 444601</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 5 Acres </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image-container">
+                <img src="images/l3.jpg" alt="">
+                <div class="info">
+                    <h3>6 days ago</h3>
+                    <h3>for sale</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>7</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs15,000,000/-</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>Rice crops</h3>
+                    <p>Chennai, Tamilnadu, India - 600001</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 10 Acres </h3>
+                    <h3> <i class="fas fa-bath"></i> Water supply </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/l5.jpg" alt="">
+                <div class="info">
+                    <h3>1 days ago</h3>
+                    <h3>for training</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs60,000/- Year</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>Corn Crops</h3>
+                    <p>Hyderabad, Telangana, India - 500035</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 2 Acres </h3>
+                    <h3> <i class="fas fa-bath"></i> Water supply </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image-container">
+                <img src="images/l2.jpg" alt="">
+                <div class="info">
+                    <h3>9 days ago</h3>
+                    <h3>for training</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>2</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>6</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs20,000/- Year</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>Millets crops</h3>
+                    <p>Banas Gujarat, India - 500035</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 1 Acre </h3>
+                    <h3> <i class="fas fa-bath"></i> Water supply </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="images/l6.jpg" alt="">
+                <div class="info">
+                    <h3>10 days ago</h3>
+                    <h3>for sale</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>3</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>8</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs70,000,000/-</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>Tea crops</h3>
+                    <p>Kochi, Kerala, India - 682001</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 8 Acres </h3>
+                    <h3> <i class="fas fa-bath"></i> Water supply </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image-container">
+                <img src="images/l4.jpg" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>for sale</h3>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>1</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>4</h3></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs18,000,000/-</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+                <div class="location">
+                    <h3>Califlower crops</h3>
+                    <p>warngal, Telangana, India - 500035</p>
+                </div>
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 4 Acres </h3>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn">request info</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- featured section ends -->
+
+<!-- agents section starts  -->
+
+<section class="agents" id="agents">
+
+    <h1 class="heading"> Agri <span>Experts</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="images/f4.jpg" alt="">
+            <h3>Sai Ram</h3>
+            <span>Agri Expert</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="images/f1.jpg" alt="">
+            <h3>Sai Santosh</h3>
+            <span>Agri Expert</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="images/f2.jpg" alt="">
+            <h3>Rohit</h3>
+            <span>Agri Expert</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-envelope"></a>
+            <a href="#" class="fas fa-phone"></a>
+            <img src="images/f3.jpg" alt="">
+            <h3>Sidharth Rao</h3>
+            <span>Agri Expert</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- agents section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> us </h1>
+
+<div class="icons-container">
+
+    <div class="icons">
+        <img src="images/icon-1.png" alt="">
+        <h3>Phone Number</h3>
+        <p>+91 9836728364</p>
+        <p>+91 8736828478</p>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-2.png" alt="">
+        <h3>Email Address</h3>
+        <p>sairam@gmail.com</p>
+        <p>saisantosh@gmail.com</p>
+    </div>
+
+     <div class="icons">
+        <img src="images/icon-3.png" alt="">
+        <h3>Office Address</h3>
+        <p>Kothapet, Hyderabad, India - 500035</p>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+            <input type="number" placeholder="Number">
+        </div>
+        <div class="inputBox">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="footer-container">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Branch Location</h3>
+                <a href="#">India</a>
+                <a href="#">Usa</a>
+                <a href="#">France</a>
+                <a href="#">Australia</a>
+                <a href="#">England</a>
+            </div> 
+            
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">home</a>
+                <a href="#">services</a>
+                <a href="#">featured</a>
+                <a href="#">agents</a>
+                <a href="#">contact</a>
+            </div> 
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#">my account</a>
+                <a href="#">my favorite</a>
+                <a href="#">my list</a>
+            </div> 
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div> 
+
+        </div>
+
+        <div class="credit">created by <span> SaiRam Santosh Rohit Vinay Sidharth Rao </span> | all rights reserved! </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript part  -->
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+    navbar.classList.toggle('active');
+    menu.classList.toggle('fa-times');
+}
+
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+    menu.classList.remove('fa-times');
+}
+
+</script>
+
+</body>
+</html>
